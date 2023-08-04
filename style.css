@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color:RGB(250,243,221);
+    font-family: 'Poppins', sans-serif;
+   
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 18rem;
+    width: 18rem;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 0.5rem;
+}
+.red{
+background-color: #b53d32;
+}
+.green{
+background-color:#375f1f;
+}
+.blue{
+background-color: #1f52e0;
+}
+.yellow{
+background-color: #effd33;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(59, 246, 2);
+}
+.bodycolor{
+    background-color: red;
+}
+.highscore{
+    font-size: 1.3rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+@media(max-width: 450px){
+    .btn{
+        height: 8rem;
+        width: 8rem;
+        border: 10px solid black;
+        border-radius: 20%;
+        margin: 0.5rem;
+    }
+}
