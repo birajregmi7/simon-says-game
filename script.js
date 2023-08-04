@@ -124,7 +124,7 @@ let startBtn = document.querySelector('.start-button')
     btn.classList.add('flash')
     setTimeout(function(){
         btn.classList.remove('flash')
-    },400)
+    },450)
  }
  function userFlash(btn){
     btn.classList.add('userflash')
