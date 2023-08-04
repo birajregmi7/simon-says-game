@@ -95,9 +95,9 @@ let audio = document.querySelector
 let audio2 = document.querySelector('#clip4')
 let highscore = document.querySelector('.highscore')
 let maxScore=0;
+let startBtn = document.querySelector('.start-button')
 
-
- document.addEventListener('keypress',function(){
+ startBtn.addEventListener('click',function(){
     if(start==false){
         console.log('Game started')
         start = true;
@@ -124,13 +124,13 @@ let maxScore=0;
     btn.classList.add('flash')
     setTimeout(function(){
         btn.classList.remove('flash')
-    },350)
+    },400)
  }
  function userFlash(btn){
     btn.classList.add('userflash')
     setTimeout(function(){
         btn.classList.remove('userflash')
-    },350)
+    },250)
  }
 
  let allBtns = document.querySelectorAll('.btn')
