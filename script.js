@@ -155,7 +155,9 @@ let startBtn = document.querySelector('.start-button')
 
    }else{
       console.log('you lost')
-      para.innerText = `you lost, press key and start`
+      para.innerText = `You lost, press key and start`
+      para.style.fontSize = '2.5rem'
+      para.style.color = 'red'
       body.classList.add('bodycolor')
       setTimeout(function(){
          body.classList.remove('bodycolor')
