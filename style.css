@@ -41,7 +41,7 @@ background-color: #effd33;
     font-size: 1.3rem;
 }
 .footer{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
 }
 @media(max-width: 450px){
